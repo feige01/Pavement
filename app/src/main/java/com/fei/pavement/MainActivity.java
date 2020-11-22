@@ -14,7 +14,10 @@ import com.baidu.mapapi.map.MyLocationConfiguration;
 import com.baidu.mapapi.map.MyLocationData;
 import com.baidu.mapapi.utils.poi.BaiduMapPoiSearch;
 
+import java.util.ArrayList;
+
 public class MainActivity extends Activity {
+
     private MapView mMapView = null;
     private BaiduMap mBaiduMap=null;
     private LocationClient mLocationClient;
